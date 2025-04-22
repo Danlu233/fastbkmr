@@ -1,0 +1,21 @@
+Package: fastbkmr
+Title: Approximate Bayesian Kernel Machine Regression via Random Fourier Features
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+    person(given = "Danlu", family = "Zhang", email = "danlu.zhang@emory.edu", role = c("aut", "cre")),
+    person(given = "Howard", family = "Chang", role = "aut")
+    )
+Description: Implements a faster version of Bayesian Kernel Machine Regression using 
+    supervised random Fourier features to approximate the Gaussian process. Provides functions 
+    for estimating joint health effects of multiple exposures, as well as marginal, single-, 
+    and two-exposure response functions. The methodology is described in Zhang et al. (2025).
+URL: https://doi.org/10.48550/arXiv.2502.13157
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: MASS, abind, stats, utils
+Depends: 
+    R (>= 2.10)
+LazyData: true
