@@ -11,7 +11,7 @@ Description: Implements a faster version of Bayesian Kernel Machine Regression u
     for estimating joint health effects of multiple exposures, as well as marginal, single-, 
     and two-exposure response functions. The methodology is described in Zhang et al. (2025).
 URL: https://doi.org/10.48550/arXiv.2502.13157
-License: GPL-3
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
